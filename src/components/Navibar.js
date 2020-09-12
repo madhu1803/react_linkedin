@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Nav, NavDropdown, Navbar, Form, FormControl } from "react-bootstrap";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillLinkedin, AiFillHome } from "react-icons/ai";
 
 export default class Navibar extends Component {
   render() {
@@ -14,8 +14,11 @@ export default class Navibar extends Component {
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           </Form>
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+          <Nav>
+            <Nav.Link href="#home">
+              <AiFillHome className="home-icon" />
+              Home
+            </Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
