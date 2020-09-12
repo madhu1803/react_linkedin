@@ -72,3 +72,15 @@ code {
   display: flex;
   flex-direction: row;
 }
+
+/* suggestion */
+.suggestion-container {
+  position: relative;
+}
+
+.suggestion-container .suggestion-content {
+  position: absolute;
+  left: 60px;
+  top: 10px;
+
+}

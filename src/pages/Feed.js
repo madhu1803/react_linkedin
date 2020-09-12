@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { Navibar, FeedLeftSidebar, FeedMiddlePost } from "../components/index";
+import {
+  Navibar,
+  FeedLeftSidebar,
+  FeedMiddlePost,
+  FeedRightSidebar,
+} from "../components/index";
 export default class Feed extends Component {
   render() {
     return (
@@ -13,7 +18,9 @@ export default class Feed extends Component {
             <div className="col-lg-6 middle-feed-container">
               <FeedMiddlePost />
             </div>
-            <div className="col-lg-3 right-feed-container">hello</div>
+            <div className="col-lg-3 right-feed-container">
+              <FeedRightSidebar />
+            </div>
           </div>
         </div>
       </div>
