@@ -11,7 +11,7 @@ export default class Profile extends Component {
         <Navibar />
         <div className="container feed-container">
           <div className="row">
-            <div className="col-lg-8 left-profile-container">
+            <div className="col-lg-8 left-profile-container mt-4">
               <ProfileLeftContainer />
             </div>
             <div className="col-lg-4 right-profile-container mt-5">
