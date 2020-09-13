@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { ProfileCard, Btn } from "../components/index";
 import { Card, Alert } from "react-bootstrap";
+import { AiOutlineClose, AiFillEdit } from "react-icons/ai";
 
 export default class ProfileLeftContainer extends Component {
   render() {
@@ -14,8 +15,7 @@ export default class ProfileLeftContainer extends Component {
             style={{ objectFit: "cover" }}
           />
           <Card.Body>
-            <Btn title="Add Profile Section" />
-            {/* <Btn title="Add Profile Section" /> */}
+            <Btn title1="Add Profile Section" title2="More..." />
             <Card.Title>Madhu Mithaa</Card.Title>
             <Card.Subtitle className="mb-2 ">
               Full stack developer
@@ -38,8 +38,17 @@ export default class ProfileLeftContainer extends Component {
             </Alert>
           </Card.Body>
         </Card>
-        <ProfileCard />
-        <ProfileCard />
+        <ProfileCard
+          Icon={AiOutlineClose}
+          txt="show recruiter what you know"
+          subtext="pass a quiz to earn  badge for your skills"
+          isBtn={true}
+        />
+        <ProfileCard
+          Icon={AiFillEdit}
+          txt="About"
+          subtext="Every boss started as a worker"
+        />
       </div>
     );
   }

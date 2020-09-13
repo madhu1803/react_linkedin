@@ -85,9 +85,12 @@ code {
 }
 
 .profile-custom-btn {
+  float: right;
+}
+
+.blue-linkedin {
   background-color: #1E6097;
   color: white;
-  float: right;
 }
 
 /* profile right container  */

@@ -9,7 +9,7 @@ export default class Profile extends Component {
     return (
       <div>
         <Navibar />
-        <div className="container feed-container">
+        <div className="container feed-container mb-5">
           <div className="row">
             <div className="col-lg-8 left-profile-container mt-4">
               <ProfileLeftContainer />
