@@ -14,3 +14,4 @@ export { default as Navlink } from "./Navlink";
 export { default as Navdropdown } from "./Navdropdown";
 export { default as Video } from "./Video";
 export { default as ProfileCard } from "./ProfileCard";
+export { default as Btn } from "./Btn";

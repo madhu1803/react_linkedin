@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ProfileCard } from "../components/index";
+import { ProfileCard, Btn } from "../components/index";
 import { Card, Alert } from "react-bootstrap";
 
 export default class ProfileLeftContainer extends Component {
@@ -14,6 +14,8 @@ export default class ProfileLeftContainer extends Component {
             style={{ objectFit: "cover" }}
           />
           <Card.Body>
+            <Btn title="Add Profile Section" />
+            {/* <Btn title="Add Profile Section" /> */}
             <Card.Title>Madhu Mithaa</Card.Title>
             <Card.Subtitle className="mb-2 ">
               Full stack developer
