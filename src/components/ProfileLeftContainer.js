@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { ProfileCard } from "../components/index";
-import { Card, Button } from "react-bootstrap";
+import { Card, Alert } from "react-bootstrap";
 
 export default class ProfileLeftContainer extends Component {
   render() {
     return (
       <div>
-        <Card className="text-capitalize">
+        <Card className="text-capitalize profile-left-container">
           <Card.Img
             variant="top"
             src="https://images.unsplash.com/photo-1599918542383-589616611daf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
@@ -25,6 +25,15 @@ export default class ProfileLeftContainer extends Component {
               </Card.Link>
               <Card.Link href="#">contact info</Card.Link>
             </Card.Text>
+            <Alert variant="light" dismissible className="alrt-container">
+              <p className="alert-text pt-4">
+                <strong>Show recruiters when you are open to work -</strong>
+                you control who sees this
+              </p>
+              <small>
+                <a href="#">Get started</a>
+              </small>
+            </Alert>
           </Card.Body>
         </Card>
         <ProfileCard />

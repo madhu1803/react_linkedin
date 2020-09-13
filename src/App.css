@@ -68,6 +68,19 @@ code {
   }
 }
 
+/* profile left container */
+.profile-left-container .alrt-container {
+  border: 1px dashed lightgray;
+  color: black;
+}
+
+.profile-left-container .alrt-container .alert-text {
+  font-size: 14px;
+
+}
+
+/* profile right container  */
+
 .profile-video-container {
   display: flex;
   flex-direction: row;
