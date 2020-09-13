@@ -14,7 +14,7 @@ export default class Profile extends Component {
             <div className="col-lg-8 left-profile-container">
               <ProfileLeftContainer />
             </div>
-            <div className="col-lg-4 right-profile-container">
+            <div className="col-lg-4 right-profile-container mt-5">
               <ProfileRightContainer />
             </div>
           </div>

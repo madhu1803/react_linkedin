@@ -12,3 +12,4 @@ export { default as FeedPostIcon } from "./FeedPostIcon";
 export { default as Suggestion } from "./Suggestion";
 export { default as Navlink } from "./Navlink";
 export { default as Navdropdown } from "./Navdropdown";
+export { default as Video } from "./Video";

@@ -68,8 +68,18 @@ code {
   }
 }
 
+.profile-video-container {
+  display: flex;
+  flex-direction: row;
+}
 
+.profile-video-container .video-content {
+  width: 45%;
+}
 
+.profile-video-container .video-txt {
+  width: 55%;
+}
 
 /* feed */
 .feed-container {
