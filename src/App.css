@@ -31,16 +31,16 @@ code {
   font-size: 50px;
 }
 
-.navbar-container a {
-  color: white !important;
-  font-size: 14px;
-}
-
 .navbar-container .navbar-nav {
   flex: 1;
   margin: auto !important;
   display: flex;
   justify-content: center;
+}
+
+.navbar-container a {
+  color: white !important;
+  font-size: 14px;
 }
 
 .nav-link .nav-icon {

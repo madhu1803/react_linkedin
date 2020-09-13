@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { AiFillLike } from "react-icons/ai";
 import { FcComments } from "react-icons/fc";
 import { RiShareForwardLine, RiSendPlaneLine } from "react-icons/ri";
