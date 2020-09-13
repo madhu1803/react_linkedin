@@ -24,6 +24,7 @@ code {
   padding-left: 11%;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+
 }
 
 .navbar-container .linkedin-icon {
@@ -35,17 +36,38 @@ code {
   font-size: 14px;
 }
 
-.navbar-nav {
+.navbar-container .navbar-nav {
   flex: 1;
   margin: auto !important;
   display: flex;
   justify-content: center;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  display: flex;
-  flex-direction: column;
+.nav-link .nav-icon {
+  font-size: 20px;
 }
+
+@media (min-width: 992px) {
+  .nav-icon-center {
+    text-align: center;
+
+  }
+
+  .navbar-container .nav-form {
+    width: 300px;
+  }
+
+  .navbar-container a {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .navbar-container .nav-divider-right {
+    border-left: 1px solid white !important;
+    margin: auto 3px;
+  }
+}
+
 
 
 
