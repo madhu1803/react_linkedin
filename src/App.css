@@ -74,7 +74,7 @@ code {
 }
 
 /* profile left container */
-.profile-left-container .alrt-container {
+.alrt-container {
   border: 1px dashed lightgray;
   color: black;
 }
@@ -91,6 +91,10 @@ code {
 .blue-linkedin {
   background-color: #1E6097;
   color: white;
+}
+
+.profile-border-top {
+  border-top: 3px solid #1E6097 !important;
 }
 
 /* profile right container  */

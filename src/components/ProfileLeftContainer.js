@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { ProfileCard, Btn } from "../components/index";
 import { Card, Alert } from "react-bootstrap";
 import { AiOutlineClose, AiFillEdit } from "react-icons/ai";
+import { RiTreasureMapFill } from "react-icons/ri";
 
 export default class ProfileLeftContainer extends Component {
   render() {
@@ -43,11 +44,15 @@ export default class ProfileLeftContainer extends Component {
           txt="show recruiter what you know"
           subtext="pass a quiz to earn  badge for your skills"
           isBtn={true}
+          isBorder={true}
+          isAlert={true}
         />
         <ProfileCard
           Icon={AiFillEdit}
           txt="About"
-          subtext="Every boss started as a worker"
+          subtext="Every boss started as a worker
+          jack of all traders
+          "
         />
       </div>
     );
