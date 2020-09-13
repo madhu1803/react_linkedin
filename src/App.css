@@ -80,7 +80,9 @@ code {
 
 .suggestion-container .suggestion-content {
   position: absolute;
-  left: 60px;
+  left: 62px;
   top: 10px;
+  font-size: 12px;
+  width: 30%;
 
 }

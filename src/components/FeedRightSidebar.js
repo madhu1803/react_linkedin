@@ -5,6 +5,7 @@ export default class FeedRightSidebar extends Component {
   render() {
     return (
       <div>
+        {/* first card  */}
         <Card className="text-capitalize pt-3 pb-3 mb-3">
           <Card.Body>
             <Card.Subtitle className="mb-2 text-muted">
@@ -17,14 +18,18 @@ export default class FeedRightSidebar extends Component {
             <Card.Link href="#">Card Link</Card.Link>
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
+          {/* second card */}
         </Card>
-
-        <ListGroup>
-          <Suggestion />
-          <Suggestion />
-          <Suggestion />
-          <Suggestion />
-        </ListGroup>
+        <Card className="text-capitalize pt-3 pb-3 mb-3">
+          <ListGroup>
+            <small>Add to your feed </small>
+            <Suggestion isBtn={true} />
+            <Suggestion isBtn={true} />
+            <Suggestion isBtn={true} />
+            <Suggestion isBtn={true} />
+            <a href="#">View all recommendations</a>
+          </ListGroup>
+        </Card>
       </div>
     );
   }
