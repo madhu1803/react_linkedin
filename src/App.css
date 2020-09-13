@@ -122,6 +122,13 @@ code {
   border: 0 !important;
 }
 
+.feed-list-group {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  font-size: 13px;
+
+}
+
 /* feed middle post  */
 
 .feed-middle-post-container .post-footer-icons {
