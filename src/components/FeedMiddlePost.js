@@ -3,13 +3,19 @@ import { Card } from "react-bootstrap";
 import { AiFillLike } from "react-icons/ai";
 import { FcComments } from "react-icons/fc";
 import { RiShareForwardLine, RiSendPlaneLine } from "react-icons/ri";
-import { BiCommentDetail } from "react-icons/bi";
+import { BiCommentDetail, BiDotsHorizontalRounded } from "react-icons/bi";
 import { FeedPostIcon, Suggestion } from "../components/index";
 export default class FeedMiddlePost extends Component {
   render() {
     return (
       <Card className="feed-middle-post-container">
-        <Suggestion />
+        <BiDotsHorizontalRounded className="ml-auto mr-2 mt-1" />
+        <Suggestion
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+          text="prachi"
+          subtext="HR||open for collaboration"
+        />
+
         <Card.Body className="mt-0 pt-0">
           <Card.Text>
             Some quick example text to build on the card title and make up the

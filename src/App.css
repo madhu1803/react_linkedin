@@ -68,6 +68,11 @@ code {
   }
 }
 
+.img-rounded {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 /* profile left container */
 .profile-left-container .alrt-container {
   border: 1px dashed lightgray;
