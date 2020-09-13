@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Nav, NavDropdown, Navbar, Form, FormControl } from "react-bootstrap";
 import { AiFillLinkedin, AiFillHome } from "react-icons/ai";
-
+import { Navlink } from "../components/index";
 export default class Navibar extends Component {
   render() {
     return (
@@ -15,14 +15,11 @@ export default class Navibar extends Component {
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           </Form>
           <Nav>
-            <Nav.Link href="#home">
-              <AiFillHome className="home-icon" />
-              Home
-            </Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Navlink Icon={AiFillHome} title="home" />
+            <Navlink Icon={AiFillHome} title="home" />
+            <Navlink Icon={AiFillHome} title="home" />
+            <Navlink Icon={AiFillHome} title="home" />
+
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
